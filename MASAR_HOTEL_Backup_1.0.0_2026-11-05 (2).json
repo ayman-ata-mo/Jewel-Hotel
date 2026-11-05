@@ -1,0 +1,325 @@
+{
+  "format": "MASAR-HOTEL-BACKUP",
+  "backupVersion": 2,
+  "appVersion": "MASAR HOTEL 1.0.0",
+  "createdAt": "2026-11-05T11:34:58.597Z",
+  "data": {
+    "settings": {
+      "hotel": "جويل هوتل",
+      "hotelEn": "JewelHOTEL",
+      "phone": "",
+      "branch": "الفرع الرئيسي",
+      "email": "",
+      "currency": "EGP",
+      "checkin": "14:00",
+      "checkout": "12:00",
+      "breakfastPrice": "100",
+      "lunchPrice": "150",
+      "mealDayBasis": "nights"
+    },
+    "rooms": [],
+    "guests": [],
+    "bookings": [],
+    "tasks": [],
+    "payments": [],
+    "services": [],
+    "items": [],
+    "expenses": [],
+    "users": [],
+    "restaurantOrders": [],
+    "auditLogs": [],
+    "floorSettings": [],
+    "roles": [
+      {
+        "id": "role_0",
+        "name": "مدير النظام",
+        "permissions": {}
+      },
+      {
+        "id": "role_1",
+        "name": "المدير العام",
+        "permissions": {}
+      },
+      {
+        "id": "role_2",
+        "name": "مدير الفندق",
+        "permissions": {}
+      },
+      {
+        "id": "role_3",
+        "name": "نائب مدير الفندق",
+        "permissions": {}
+      },
+      {
+        "id": "role_4",
+        "name": "مدير التشغيل",
+        "permissions": {}
+      },
+      {
+        "id": "role_5",
+        "name": "مدير الاستقبال",
+        "permissions": {}
+      },
+      {
+        "id": "role_6",
+        "name": "مشرف استقبال",
+        "permissions": {}
+      },
+      {
+        "id": "role_7",
+        "name": "موظف استقبال",
+        "permissions": {}
+      },
+      {
+        "id": "role_8",
+        "name": "مسؤول الحجوزات",
+        "permissions": {}
+      },
+      {
+        "id": "role_9",
+        "name": "موظف خدمة النزلاء",
+        "permissions": {}
+      },
+      {
+        "id": "role_10",
+        "name": "مدير الإشراف الداخلي",
+        "permissions": {}
+      },
+      {
+        "id": "role_11",
+        "name": "مشرف غرف",
+        "permissions": {}
+      },
+      {
+        "id": "role_12",
+        "name": "عامل غرف",
+        "permissions": {}
+      },
+      {
+        "id": "role_13",
+        "name": "مسؤول المغسلة",
+        "permissions": {}
+      },
+      {
+        "id": "role_14",
+        "name": "عامل مغسلة",
+        "permissions": {}
+      },
+      {
+        "id": "role_15",
+        "name": "مدير المطعم",
+        "permissions": {}
+      },
+      {
+        "id": "role_16",
+        "name": "مشرف مطعم",
+        "permissions": {}
+      },
+      {
+        "id": "role_17",
+        "name": "كابتن صالة",
+        "permissions": {}
+      },
+      {
+        "id": "role_18",
+        "name": "ويتر",
+        "permissions": {}
+      },
+      {
+        "id": "role_19",
+        "name": "شيف",
+        "permissions": {}
+      },
+      {
+        "id": "role_20",
+        "name": "مساعد شيف",
+        "permissions": {}
+      },
+      {
+        "id": "role_21",
+        "name": "مسؤول المطبخ",
+        "permissions": {}
+      },
+      {
+        "id": "role_22",
+        "name": "المدير المالي",
+        "permissions": {}
+      },
+      {
+        "id": "role_23",
+        "name": "رئيس الحسابات",
+        "permissions": {}
+      },
+      {
+        "id": "role_24",
+        "name": "محاسب",
+        "permissions": {}
+      },
+      {
+        "id": "role_25",
+        "name": "أمين خزينة",
+        "permissions": {}
+      },
+      {
+        "id": "role_26",
+        "name": "مسؤول المشتريات",
+        "permissions": {}
+      },
+      {
+        "id": "role_27",
+        "name": "مدير الموارد البشرية",
+        "permissions": {}
+      },
+      {
+        "id": "role_28",
+        "name": "مسؤول شؤون العاملين",
+        "permissions": {}
+      },
+      {
+        "id": "role_29",
+        "name": "مسؤول التدريب",
+        "permissions": {}
+      },
+      {
+        "id": "role_30",
+        "name": "مدير الأمن",
+        "permissions": {}
+      },
+      {
+        "id": "role_31",
+        "name": "مشرف أمن",
+        "permissions": {}
+      },
+      {
+        "id": "role_32",
+        "name": "فرد أمن",
+        "permissions": {}
+      },
+      {
+        "id": "role_33",
+        "name": "مسؤول كاميرات المراقبة",
+        "permissions": {}
+      },
+      {
+        "id": "role_34",
+        "name": "مدير تقنية المعلومات",
+        "permissions": {}
+      },
+      {
+        "id": "role_35",
+        "name": "مسؤول تقنية المعلومات IT",
+        "permissions": {}
+      },
+      {
+        "id": "role_36",
+        "name": "مهندس شبكات",
+        "permissions": {}
+      },
+      {
+        "id": "role_37",
+        "name": "مسؤول الأنظمة",
+        "permissions": {}
+      },
+      {
+        "id": "role_38",
+        "name": "فني دعم فني",
+        "permissions": {}
+      },
+      {
+        "id": "role_39",
+        "name": "مدير الصيانة",
+        "permissions": {}
+      },
+      {
+        "id": "role_40",
+        "name": "مهندس صيانة",
+        "permissions": {}
+      },
+      {
+        "id": "role_41",
+        "name": "فني صيانة",
+        "permissions": {}
+      },
+      {
+        "id": "role_42",
+        "name": "فني كهرباء",
+        "permissions": {}
+      },
+      {
+        "id": "role_43",
+        "name": "فني سباكة",
+        "permissions": {}
+      },
+      {
+        "id": "role_44",
+        "name": "فني تكييف",
+        "permissions": {}
+      },
+      {
+        "id": "role_45",
+        "name": "فني أجهزة",
+        "permissions": {}
+      },
+      {
+        "id": "role_46",
+        "name": "مدير المخازن",
+        "permissions": {}
+      },
+      {
+        "id": "role_47",
+        "name": "أمين مخزن",
+        "permissions": {}
+      },
+      {
+        "id": "role_48",
+        "name": "مسؤول العهدة",
+        "permissions": {}
+      },
+      {
+        "id": "role_49",
+        "name": "مدير المبيعات",
+        "permissions": {}
+      },
+      {
+        "id": "role_50",
+        "name": "مسؤول التسويق",
+        "permissions": {}
+      },
+      {
+        "id": "role_51",
+        "name": "مسؤول التعاقدات",
+        "permissions": {}
+      },
+      {
+        "id": "role_52",
+        "name": "مسؤول العلاقات العامة",
+        "permissions": {}
+      },
+      {
+        "id": "role_53",
+        "name": "مسؤول النقل",
+        "permissions": {}
+      },
+      {
+        "id": "role_54",
+        "name": "سائق",
+        "permissions": {}
+      },
+      {
+        "id": "role_55",
+        "name": "مسؤول الفعاليات",
+        "permissions": {}
+      },
+      {
+        "id": "role_56",
+        "name": "مسؤول الكروز",
+        "permissions": {}
+      },
+      {
+        "id": "role_57",
+        "name": "مسؤول الجودة",
+        "permissions": {}
+      }
+    ]
+  }
+}
