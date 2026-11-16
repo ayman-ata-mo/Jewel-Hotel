@@ -1,20 +1,21 @@
-/* MASAR HOTEL 6.03 GitHub Pages demonstration only. Not server authentication. */
-(()=>{
- const SESSION='masar603_demo_session', DATA='masar603_demo_data';
- const fresh=()=>({settings:{hotel:'فندق جويل',hotelEn:'Jewel Hotel',hotelLogo:'clogo.png'},rooms:[{id:101,no:'101',type:'عادية',status:'متاحة',floor:1,price:850},{id:102,no:'102',type:'مميزة',status:'مشغولة',floor:1,price:1200},{id:201,no:'201',type:'جناح',status:'متاحة',floor:2,price:1900}],guests:[],bookings:[],tasks:[],payments:[],services:[],items:[],expenses:[],users:[{id:1,name:'مدير العرض',username:'demo',role:'مدير النظام'}],restaurantOrders:[],auditLogs:[],waitlist:[],roles:[{name:'مدير النظام'}],floorSettings:[]});
- const brand=d=>{d=d||fresh();d.settings=d.settings||{};d.settings.hotel='فندق جويل';d.settings.hotelEn='Jewel Hotel';d.settings.hotelLogo='clogo.png';return d};
- const read=()=>{try{return brand(JSON.parse(localStorage.getItem(DATA))||fresh())}catch{return brand(fresh())}};
- const identity=()=>{window.masarServerIdentity={name:'مدير العرض',role:'admin',mustChangePassword:false}};
- window.masarServerIdentity=null;
- window.masarDesktop={
-  async loadDB(){if(localStorage.getItem(SESSION)!=='yes')throw Error('LOGIN_REQUIRED');identity();return read()},
-  async employeeLogin(u,p){if(u!=='demo'||p!=='demo')throw Error('بيانات الدخول الاستعراضية غير صحيحة');localStorage.setItem(SESSION,'yes');identity();return read()},
-  async logoutServer(){localStorage.removeItem(SESSION);window.masarServerIdentity=null;return {ok:true}},
-  async saveDB(data){localStorage.setItem(DATA,JSON.stringify(brand(data)));return {ok:true}},
-  async manageCategory(operation,category,name,new_name){let d=read();d.settings=d.settings||{};let cats=d.settings.guestCategories||['مدني','عسكري','بوكينج'];if(operation==='add_category'&&!cats.includes(category))cats.push(category);if(operation==='delete_category')cats=cats.filter(x=>x!==category);if(operation==='rename_category')cats=cats.map(x=>x===category?new_name:x);d.settings.guestCategories=cats;localStorage.setItem(DATA,JSON.stringify(d));return {data:d}},
-  async changePassword(){throw Error('كلمة مرور العرض ثابتة')},async addStaff(){throw Error('إضافة موظفين حقيقيين غير متاحة في العرض')},
-  async getDataLocation(){return 'بيانات استعراضية محلية في المتصفح (ليست MySQL)'},async openDataFolder(){alert('هذه نسخة استعراضية تعمل في المتصفح فقط')},
-  async saveLogo(data){let d=read();d.settings=d.settings||{};d.settings.hotelLogo='clogo.png';localStorage.setItem(DATA,JSON.stringify(brand(d)));return {ok:true}},
-  async exportBackup(){throw Error('النسخ الاحتياطي للسيرفر غير متاح في العرض')},async importBackup(){throw Error('غير متاح في العرض')}
- };
+/* Jewel Hotel GitHub Pages demo: browser-only, no PHP or central database. */
+(()=>{const KEY='jewel_hotel_demo_60303_data',AUTH='jewel_hotel_demo_60303_auth';let revision=0;
+const clone=x=>JSON.parse(JSON.stringify(x));
+async function seed(){const r=await fetch('demo-data.json',{cache:'no-store'});if(!r.ok)throw Error('تعذر تحميل بيانات التجربة');return r.json()}
+async function load(){const raw=localStorage.getItem(KEY);if(raw){try{return JSON.parse(raw)}catch{}}const d=await seed();localStorage.setItem(KEY,JSON.stringify(d));return d}
+const identity=()=>{window.masarServerIdentity={name:'مدير النسخة التجريبية',role:'admin',mustChangePassword:false}};
+window.masarDesktop={
+async loadDB(){if(sessionStorage.getItem(AUTH)!=='1')throw Error('LOGIN_REQUIRED');identity();return load()},
+async employeeLogin(u,p){if(u!=='demo'||p!=='demo')throw Error('اسم المستخدم أو كلمة المرور غير صحيحة');sessionStorage.setItem(AUTH,'1');identity();return load()},
+async logoutServer(){sessionStorage.removeItem(AUTH);window.masarServerIdentity=null;return {ok:true}},
+async saveDB(d){if(sessionStorage.getItem(AUTH)!=='1')throw Error('LOGIN_REQUIRED');localStorage.setItem(KEY,JSON.stringify(d));revision++;return {ok:true,engine:'Browser localStorage (demo)',revision}},
+async manageCategory(op,cat,name,newName){const d=await load(),s=d.settings||(d.settings={}),a=s.guestCategories||(s.guestCategories=['مدني','عسكري','بوكينج','تصنيفات أخرى']),groups=s.guestSubcategories||(s.guestSubcategories={});if(op==='add_category'&&!a.includes(cat))a.push(cat);if(op==='delete_category'){s.guestCategories=a.filter(x=>x!==cat);delete groups[cat]}if(op==='rename_category'){s.guestCategories=a.map(x=>x===cat?newName:x);groups[newName]=groups[cat]||[];delete groups[cat]}if(op==='add_sub'){groups[cat]=groups[cat]||[];if(!groups[cat].includes(name))groups[cat].push(name)}if(op==='delete_sub')groups[cat]=(groups[cat]||[]).filter(x=>x!==name);if(op==='rename_sub')groups[cat]=(groups[cat]||[]).map(x=>x===name?newName:x);localStorage.setItem(KEY,JSON.stringify(d));return d},
+async changePassword(){throw Error('كلمة مرور النسخة التجريبية ثابتة: demo')},
+async addStaff(){throw Error('إضافة مستخدمين فعليين غير متاحة في نسخة العرض')},
+async saveLogo(data){const d=await load();d.settings.hotelLogo=data;localStorage.setItem(KEY,JSON.stringify(d));return {ok:true}},
+async getDataLocation(){return 'بيانات تجريبية داخل هذا المتصفح فقط'},async openDataFolder(){alert('هذه نسخة عرض: البيانات محفوظة محليًا داخل المتصفح')},
+async exportBackup(payload){const blob=new Blob([JSON.stringify({format:'JEWEL-DEMO-1',data:payload.data},null,2)],{type:'application/json'});const url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download='JEWEL_DEMO_BACKUP.json';a.click();setTimeout(()=>URL.revokeObjectURL(url),2000);return {ok:true}},
+async importBackup(){throw Error('استيراد النسخ غير متاح في نسخة العرض')}
+};
+window.jewelDemoReset=async()=>{localStorage.removeItem(KEY);location.reload()};
 })();

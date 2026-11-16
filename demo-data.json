@@ -1,0 +1,1713 @@
+{
+  "settings": {
+    "hotel": "جويل فندق",
+    "hotelEn": "Jewel Hotel",
+    "hotelLogo": "logo.png",
+    "guestCategories": [
+      "مدني",
+      "عسكري",
+      "بوكينج",
+      "تصنيفات أخرى"
+    ],
+    "guestSubcategories": {
+      "مدني": [
+        "تعاقدات",
+        "أفراد"
+      ],
+      "عسكري": [
+        "ضباط",
+        "أفراد"
+      ],
+      "بوكينج": [
+        "أونلاين"
+      ]
+    }
+  },
+  "rooms": [
+    {
+      "id": 1,
+      "no": "101",
+      "floor": 1,
+      "type": "مزدوجة",
+      "price": 1200,
+      "status": "متاحة"
+    },
+    {
+      "id": 2,
+      "no": "102",
+      "floor": 1,
+      "type": "جناح",
+      "price": 2200,
+      "status": "متاحة"
+    },
+    {
+      "id": 3,
+      "no": "103",
+      "floor": 1,
+      "type": "مفردة",
+      "price": 850,
+      "status": "متاحة"
+    },
+    {
+      "id": 4,
+      "no": "104",
+      "floor": 1,
+      "type": "مزدوجة",
+      "price": 1200,
+      "status": "مشغولة"
+    },
+    {
+      "id": 5,
+      "no": "105",
+      "floor": 1,
+      "type": "جناح",
+      "price": 2200,
+      "status": "مشغولة"
+    },
+    {
+      "id": 6,
+      "no": "106",
+      "floor": 1,
+      "type": "مفردة",
+      "price": 850,
+      "status": "محجوزة"
+    },
+    {
+      "id": 7,
+      "no": "107",
+      "floor": 1,
+      "type": "مزدوجة",
+      "price": 1200,
+      "status": "محجوزة"
+    },
+    {
+      "id": 8,
+      "no": "108",
+      "floor": 1,
+      "type": "جناح",
+      "price": 2200,
+      "status": "محجوزة"
+    },
+    {
+      "id": 9,
+      "no": "109",
+      "floor": 1,
+      "type": "مفردة",
+      "price": 850,
+      "status": "محجوزة"
+    },
+    {
+      "id": 10,
+      "no": "110",
+      "floor": 1,
+      "type": "مزدوجة",
+      "price": 1200,
+      "status": "محجوزة"
+    },
+    {
+      "id": 11,
+      "no": "201",
+      "floor": 2,
+      "type": "مزدوجة",
+      "price": 1200,
+      "status": "متاحة"
+    },
+    {
+      "id": 12,
+      "no": "202",
+      "floor": 2,
+      "type": "جناح",
+      "price": 2200,
+      "status": "متاحة"
+    },
+    {
+      "id": 13,
+      "no": "203",
+      "floor": 2,
+      "type": "مفردة",
+      "price": 850,
+      "status": "متاحة"
+    },
+    {
+      "id": 14,
+      "no": "204",
+      "floor": 2,
+      "type": "مزدوجة",
+      "price": 1200,
+      "status": "مشغولة"
+    },
+    {
+      "id": 15,
+      "no": "205",
+      "floor": 2,
+      "type": "جناح",
+      "price": 2200,
+      "status": "مشغولة"
+    },
+    {
+      "id": 16,
+      "no": "206",
+      "floor": 2,
+      "type": "مفردة",
+      "price": 850,
+      "status": "محجوزة"
+    },
+    {
+      "id": 17,
+      "no": "207",
+      "floor": 2,
+      "type": "مزدوجة",
+      "price": 1200,
+      "status": "محجوزة"
+    },
+    {
+      "id": 18,
+      "no": "208",
+      "floor": 2,
+      "type": "جناح",
+      "price": 2200,
+      "status": "محجوزة"
+    },
+    {
+      "id": 19,
+      "no": "209",
+      "floor": 2,
+      "type": "مفردة",
+      "price": 850,
+      "status": "محجوزة"
+    },
+    {
+      "id": 20,
+      "no": "210",
+      "floor": 2,
+      "type": "مزدوجة",
+      "price": 1200,
+      "status": "محجوزة"
+    },
+    {
+      "id": 21,
+      "no": "301",
+      "floor": 3,
+      "type": "مزدوجة",
+      "price": 1200,
+      "status": "متاحة"
+    },
+    {
+      "id": 22,
+      "no": "302",
+      "floor": 3,
+      "type": "جناح",
+      "price": 2200,
+      "status": "متاحة"
+    },
+    {
+      "id": 23,
+      "no": "303",
+      "floor": 3,
+      "type": "مفردة",
+      "price": 850,
+      "status": "متاحة"
+    },
+    {
+      "id": 24,
+      "no": "304",
+      "floor": 3,
+      "type": "مزدوجة",
+      "price": 1200,
+      "status": "مشغولة"
+    },
+    {
+      "id": 25,
+      "no": "305",
+      "floor": 3,
+      "type": "جناح",
+      "price": 2200,
+      "status": "مشغولة"
+    },
+    {
+      "id": 26,
+      "no": "306",
+      "floor": 3,
+      "type": "مفردة",
+      "price": 850,
+      "status": "محجوزة"
+    },
+    {
+      "id": 27,
+      "no": "307",
+      "floor": 3,
+      "type": "مزدوجة",
+      "price": 1200,
+      "status": "محجوزة"
+    },
+    {
+      "id": 28,
+      "no": "308",
+      "floor": 3,
+      "type": "جناح",
+      "price": 2200,
+      "status": "محجوزة"
+    },
+    {
+      "id": 29,
+      "no": "309",
+      "floor": 3,
+      "type": "مفردة",
+      "price": 850,
+      "status": "متاحة"
+    },
+    {
+      "id": 30,
+      "no": "310",
+      "floor": 3,
+      "type": "مزدوجة",
+      "price": 1200,
+      "status": "متاحة"
+    },
+    {
+      "id": 31,
+      "no": "401",
+      "floor": 4,
+      "type": "مزدوجة",
+      "price": 1200,
+      "status": "متاحة"
+    },
+    {
+      "id": 32,
+      "no": "402",
+      "floor": 4,
+      "type": "جناح",
+      "price": 2200,
+      "status": "متاحة"
+    },
+    {
+      "id": 33,
+      "no": "403",
+      "floor": 4,
+      "type": "مفردة",
+      "price": 850,
+      "status": "متاحة"
+    },
+    {
+      "id": 34,
+      "no": "404",
+      "floor": 4,
+      "type": "مزدوجة",
+      "price": 1200,
+      "status": "متاحة"
+    },
+    {
+      "id": 35,
+      "no": "405",
+      "floor": 4,
+      "type": "جناح",
+      "price": 2200,
+      "status": "متاحة"
+    },
+    {
+      "id": 36,
+      "no": "406",
+      "floor": 4,
+      "type": "مفردة",
+      "price": 850,
+      "status": "متاحة"
+    },
+    {
+      "id": 37,
+      "no": "407",
+      "floor": 4,
+      "type": "مزدوجة",
+      "price": 1200,
+      "status": "متاحة"
+    },
+    {
+      "id": 38,
+      "no": "408",
+      "floor": 4,
+      "type": "جناح",
+      "price": 2200,
+      "status": "متاحة"
+    },
+    {
+      "id": 39,
+      "no": "409",
+      "floor": 4,
+      "type": "مفردة",
+      "price": 850,
+      "status": "متاحة"
+    },
+    {
+      "id": 40,
+      "no": "410",
+      "floor": 4,
+      "type": "مزدوجة",
+      "price": 1200,
+      "status": "متاحة"
+    }
+  ],
+  "guests": [
+    {
+      "id": 1,
+      "name": "أحمد محمود",
+      "phone": "01010000000",
+      "idno": "2980101000000",
+      "country": "مصر"
+    },
+    {
+      "id": 2,
+      "name": "محمد السيد",
+      "phone": "01010003117",
+      "idno": "2980101001237",
+      "country": "مصر"
+    },
+    {
+      "id": 3,
+      "name": "منى إبراهيم",
+      "phone": "01010006234",
+      "idno": "2980101002474",
+      "country": "مصر"
+    },
+    {
+      "id": 4,
+      "name": "سارة حسن",
+      "phone": "01010009351",
+      "idno": "2980101003711",
+      "country": "مصر"
+    },
+    {
+      "id": 5,
+      "name": "عمر خالد",
+      "phone": "01010012468",
+      "idno": "2980101004948",
+      "country": "مصر"
+    },
+    {
+      "id": 6,
+      "name": "محمود علي",
+      "phone": "01010015585",
+      "idno": "2980101006185",
+      "country": "مصر"
+    },
+    {
+      "id": 7,
+      "name": "فاطمة أحمد",
+      "phone": "01010018702",
+      "idno": "2980101007422",
+      "country": "مصر"
+    },
+    {
+      "id": 8,
+      "name": "يوسف سمير",
+      "phone": "01010021819",
+      "idno": "2980101008659",
+      "country": "مصر"
+    },
+    {
+      "id": 9,
+      "name": "نور مصطفى",
+      "phone": "01010024936",
+      "idno": "2980101009896",
+      "country": "مصر"
+    },
+    {
+      "id": 10,
+      "name": "هبة محمد",
+      "phone": "01010028053",
+      "idno": "2980101011133",
+      "country": "مصر"
+    },
+    {
+      "id": 11,
+      "name": "كريم عبد الله",
+      "phone": "01010031170",
+      "idno": "2980101012370",
+      "country": "مصر"
+    },
+    {
+      "id": 12,
+      "name": "آية جمال",
+      "phone": "01010034287",
+      "idno": "2980101013607",
+      "country": "مصر"
+    },
+    {
+      "id": 13,
+      "name": "طارق فؤاد",
+      "phone": "01010037404",
+      "idno": "2980101014844",
+      "country": "مصر"
+    },
+    {
+      "id": 14,
+      "name": "ريم عادل",
+      "phone": "01010040521",
+      "idno": "2980101016081",
+      "country": "مصر"
+    },
+    {
+      "id": 15,
+      "name": "حسام إبراهيم",
+      "phone": "01010043638",
+      "idno": "2980101017318",
+      "country": "مصر"
+    },
+    {
+      "id": 16,
+      "name": "دينا أشرف",
+      "phone": "01010046755",
+      "idno": "2980101018555",
+      "country": "مصر"
+    },
+    {
+      "id": 17,
+      "name": "خالد عبد الرحمن",
+      "phone": "01010049872",
+      "idno": "2980101019792",
+      "country": "مصر"
+    },
+    {
+      "id": 18,
+      "name": "نهى شريف",
+      "phone": "01010052989",
+      "idno": "2980101021029",
+      "country": "مصر"
+    },
+    {
+      "id": 19,
+      "name": "وليد صلاح",
+      "phone": "01010056106",
+      "idno": "2980101022266",
+      "country": "مصر"
+    },
+    {
+      "id": 20,
+      "name": "مريم حسن",
+      "phone": "01010059223",
+      "idno": "2980101023503",
+      "country": "مصر"
+    },
+    {
+      "id": 21,
+      "name": "شريف أمين",
+      "phone": "01010062340",
+      "idno": "2980101024740",
+      "country": "مصر"
+    },
+    {
+      "id": 22,
+      "name": "إيمان طارق",
+      "phone": "01010065457",
+      "idno": "2980101025977",
+      "country": "مصر"
+    },
+    {
+      "id": 23,
+      "name": "مصطفى سعيد",
+      "phone": "01010068574",
+      "idno": "2980101027214",
+      "country": "مصر"
+    },
+    {
+      "id": 24,
+      "name": "رانيا مجدي",
+      "phone": "01010071691",
+      "idno": "2980101028451",
+      "country": "مصر"
+    },
+    {
+      "id": 25,
+      "name": "إبراهيم فتحي",
+      "phone": "01010074808",
+      "idno": "2980101029688",
+      "country": "مصر"
+    },
+    {
+      "id": 26,
+      "name": "بسمة عادل",
+      "phone": "01010077925",
+      "idno": "2980101030925",
+      "country": "مصر"
+    },
+    {
+      "id": 27,
+      "name": "عمرو سامح",
+      "phone": "01010081042",
+      "idno": "2980101032162",
+      "country": "مصر"
+    },
+    {
+      "id": 28,
+      "name": "هدى محمود",
+      "phone": "01010084159",
+      "idno": "2980101033399",
+      "country": "مصر"
+    },
+    {
+      "id": 29,
+      "name": "عبد الله محمد",
+      "phone": "01010087276",
+      "idno": "2980101034636",
+      "country": "مصر"
+    },
+    {
+      "id": 30,
+      "name": "سلمى هشام",
+      "phone": "01010090393",
+      "idno": "2980101035873",
+      "country": "مصر"
+    }
+  ],
+  "bookings": [
+    {
+      "id": 1001,
+      "guest": "أحمد محمود",
+      "phone": "01010000000",
+      "room": "101",
+      "in": "2026-11-06",
+      "out": "2026-11-07",
+      "persons": 1,
+      "price": 1200,
+      "paid": 1200,
+      "grandTotal": 1200,
+      "status": "مكتمل",
+      "guestCategory": "مدني",
+      "guestSubcategory": "",
+      "breakfast": true,
+      "lunch": true,
+      "dinner": true,
+      "contractNo": "CT-2026-0001",
+      "identityNo": "2980101000000",
+      "workplace": "شركة النيل",
+      "servicesAmount": 0,
+      "bookingMode": "confirmed"
+    },
+    {
+      "id": 1002,
+      "guest": "محمد السيد",
+      "phone": "01010003117",
+      "room": "102",
+      "in": "2026-11-09",
+      "out": "2026-11-11",
+      "persons": 2,
+      "price": 2200,
+      "paid": 4400,
+      "grandTotal": 4400,
+      "status": "مكتمل",
+      "guestCategory": "عسكري",
+      "guestSubcategory": "",
+      "breakfast": true,
+      "lunch": false,
+      "dinner": false,
+      "contractNo": "CT-2026-0002",
+      "identityNo": "2980101001237",
+      "workplace": "جهة حكومية",
+      "servicesAmount": 0,
+      "bookingMode": "confirmed"
+    },
+    {
+      "id": 1003,
+      "guest": "منى إبراهيم",
+      "phone": "01010006234",
+      "room": "103",
+      "in": "2026-11-12",
+      "out": "2026-11-15",
+      "persons": 3,
+      "price": 850,
+      "paid": 2550,
+      "grandTotal": 2550,
+      "status": "مكتمل",
+      "guestCategory": "بوكينج",
+      "guestSubcategory": "",
+      "breakfast": true,
+      "lunch": true,
+      "dinner": false,
+      "contractNo": "CT-2026-0003",
+      "identityNo": "2980101002474",
+      "workplace": "عمل حر",
+      "servicesAmount": 0,
+      "bookingMode": "confirmed"
+    },
+    {
+      "id": 1004,
+      "guest": "سارة حسن",
+      "phone": "01010009351",
+      "room": "104",
+      "in": "2026-11-14",
+      "out": "2026-11-18",
+      "persons": 1,
+      "price": 1200,
+      "paid": 0,
+      "grandTotal": 4800,
+      "status": "مقيم",
+      "guestCategory": "مدني",
+      "guestSubcategory": "",
+      "breakfast": true,
+      "lunch": false,
+      "dinner": false,
+      "contractNo": "CT-2026-0004",
+      "identityNo": "2980101003711",
+      "workplace": "شركة النيل",
+      "servicesAmount": 0,
+      "bookingMode": "confirmed"
+    },
+    {
+      "id": 1005,
+      "guest": "عمر خالد",
+      "phone": "01010012468",
+      "room": "105",
+      "in": "2026-11-16",
+      "out": "2026-11-21",
+      "persons": 2,
+      "price": 2200,
+      "paid": 5500,
+      "grandTotal": 11000,
+      "status": "مقيم",
+      "guestCategory": "عسكري",
+      "guestSubcategory": "",
+      "breakfast": true,
+      "lunch": true,
+      "dinner": true,
+      "contractNo": "CT-2026-0005",
+      "identityNo": "2980101004948",
+      "workplace": "جهة حكومية",
+      "servicesAmount": 0,
+      "bookingMode": "confirmed"
+    },
+    {
+      "id": 1006,
+      "guest": "محمود علي",
+      "phone": "01010015585",
+      "room": "106",
+      "in": "2026-11-17",
+      "out": "2026-11-18",
+      "persons": 3,
+      "price": 850,
+      "paid": 425,
+      "grandTotal": 850,
+      "status": "مؤكد",
+      "guestCategory": "بوكينج",
+      "guestSubcategory": "",
+      "breakfast": true,
+      "lunch": false,
+      "dinner": false,
+      "contractNo": "CT-2026-0006",
+      "identityNo": "2980101006185",
+      "workplace": "عمل حر",
+      "servicesAmount": 0,
+      "bookingMode": "confirmed"
+    },
+    {
+      "id": 1007,
+      "guest": "فاطمة أحمد",
+      "phone": "01010018702",
+      "room": "107",
+      "in": "2026-11-19",
+      "out": "2026-11-21",
+      "persons": 1,
+      "price": 1200,
+      "paid": 0,
+      "grandTotal": 2400,
+      "status": "مؤكد",
+      "guestCategory": "مدني",
+      "guestSubcategory": "",
+      "breakfast": true,
+      "lunch": true,
+      "dinner": false,
+      "contractNo": "CT-2026-0007",
+      "identityNo": "2980101007422",
+      "workplace": "شركة النيل",
+      "servicesAmount": 0,
+      "bookingMode": "confirmed"
+    },
+    {
+      "id": 1008,
+      "guest": "يوسف سمير",
+      "phone": "01010021819",
+      "room": "108",
+      "in": "2026-11-22",
+      "out": "2026-11-25",
+      "persons": 2,
+      "price": 2200,
+      "paid": 3300,
+      "grandTotal": 6600,
+      "status": "مؤكد",
+      "guestCategory": "عسكري",
+      "guestSubcategory": "",
+      "breakfast": true,
+      "lunch": false,
+      "dinner": false,
+      "contractNo": "CT-2026-0008",
+      "identityNo": "2980101008659",
+      "workplace": "جهة حكومية",
+      "servicesAmount": 0,
+      "bookingMode": "confirmed"
+    },
+    {
+      "id": 1009,
+      "guest": "نور مصطفى",
+      "phone": "01010024936",
+      "room": "109",
+      "in": "2026-11-26",
+      "out": "2026-11-30",
+      "persons": 3,
+      "price": 850,
+      "paid": 1700,
+      "grandTotal": 3400,
+      "status": "مؤكد",
+      "guestCategory": "بوكينج",
+      "guestSubcategory": "",
+      "breakfast": true,
+      "lunch": true,
+      "dinner": true,
+      "contractNo": "CT-2026-0009",
+      "identityNo": "2980101009896",
+      "workplace": "عمل حر",
+      "servicesAmount": 0,
+      "bookingMode": "confirmed"
+    },
+    {
+      "id": 1010,
+      "guest": "هبة محمد",
+      "phone": "01010028053",
+      "room": "110",
+      "in": "2026-12-01",
+      "out": "2026-12-06",
+      "persons": 1,
+      "price": 1200,
+      "paid": 0,
+      "grandTotal": 6000,
+      "status": "مؤكد",
+      "guestCategory": "مدني",
+      "guestSubcategory": "",
+      "breakfast": true,
+      "lunch": false,
+      "dinner": false,
+      "contractNo": "CT-2026-0010",
+      "identityNo": "2980101011133",
+      "workplace": "شركة النيل",
+      "servicesAmount": 0,
+      "bookingMode": "confirmed"
+    },
+    {
+      "id": 1011,
+      "guest": "كريم عبد الله",
+      "phone": "01010031170",
+      "room": "201",
+      "in": "2026-11-06",
+      "out": "2026-11-07",
+      "persons": 2,
+      "price": 1200,
+      "paid": 1200,
+      "grandTotal": 1200,
+      "status": "مكتمل",
+      "guestCategory": "عسكري",
+      "guestSubcategory": "",
+      "breakfast": true,
+      "lunch": true,
+      "dinner": false,
+      "contractNo": "CT-2026-0011",
+      "identityNo": "2980101012370",
+      "workplace": "جهة حكومية",
+      "servicesAmount": 0,
+      "bookingMode": "confirmed"
+    },
+    {
+      "id": 1012,
+      "guest": "آية جمال",
+      "phone": "01010034287",
+      "room": "202",
+      "in": "2026-11-09",
+      "out": "2026-11-11",
+      "persons": 3,
+      "price": 2200,
+      "paid": 4400,
+      "grandTotal": 4400,
+      "status": "مكتمل",
+      "guestCategory": "بوكينج",
+      "guestSubcategory": "",
+      "breakfast": true,
+      "lunch": false,
+      "dinner": false,
+      "contractNo": "CT-2026-0012",
+      "identityNo": "2980101013607",
+      "workplace": "عمل حر",
+      "servicesAmount": 0,
+      "bookingMode": "confirmed"
+    },
+    {
+      "id": 1013,
+      "guest": "طارق فؤاد",
+      "phone": "01010037404",
+      "room": "203",
+      "in": "2026-11-12",
+      "out": "2026-11-15",
+      "persons": 1,
+      "price": 850,
+      "paid": 2550,
+      "grandTotal": 2550,
+      "status": "مكتمل",
+      "guestCategory": "مدني",
+      "guestSubcategory": "",
+      "breakfast": true,
+      "lunch": true,
+      "dinner": true,
+      "contractNo": "CT-2026-0013",
+      "identityNo": "2980101014844",
+      "workplace": "شركة النيل",
+      "servicesAmount": 0,
+      "bookingMode": "confirmed"
+    },
+    {
+      "id": 1014,
+      "guest": "ريم عادل",
+      "phone": "01010040521",
+      "room": "204",
+      "in": "2026-11-14",
+      "out": "2026-11-18",
+      "persons": 2,
+      "price": 1200,
+      "paid": 2400,
+      "grandTotal": 4800,
+      "status": "مقيم",
+      "guestCategory": "عسكري",
+      "guestSubcategory": "",
+      "breakfast": true,
+      "lunch": false,
+      "dinner": false,
+      "contractNo": "CT-2026-0014",
+      "identityNo": "2980101016081",
+      "workplace": "جهة حكومية",
+      "servicesAmount": 0,
+      "bookingMode": "confirmed"
+    },
+    {
+      "id": 1015,
+      "guest": "حسام إبراهيم",
+      "phone": "01010043638",
+      "room": "205",
+      "in": "2026-11-16",
+      "out": "2026-11-21",
+      "persons": 3,
+      "price": 2200,
+      "paid": 5500,
+      "grandTotal": 11000,
+      "status": "مقيم",
+      "guestCategory": "بوكينج",
+      "guestSubcategory": "",
+      "breakfast": true,
+      "lunch": true,
+      "dinner": false,
+      "contractNo": "CT-2026-0015",
+      "identityNo": "2980101017318",
+      "workplace": "عمل حر",
+      "servicesAmount": 0,
+      "bookingMode": "confirmed"
+    },
+    {
+      "id": 1016,
+      "guest": "دينا أشرف",
+      "phone": "01010046755",
+      "room": "206",
+      "in": "2026-11-17",
+      "out": "2026-11-18",
+      "persons": 1,
+      "price": 850,
+      "paid": 0,
+      "grandTotal": 850,
+      "status": "مؤكد",
+      "guestCategory": "مدني",
+      "guestSubcategory": "",
+      "breakfast": true,
+      "lunch": false,
+      "dinner": false,
+      "contractNo": "CT-2026-0016",
+      "identityNo": "2980101018555",
+      "workplace": "شركة النيل",
+      "servicesAmount": 0,
+      "bookingMode": "confirmed"
+    },
+    {
+      "id": 1017,
+      "guest": "خالد عبد الرحمن",
+      "phone": "01010049872",
+      "room": "207",
+      "in": "2026-11-19",
+      "out": "2026-11-21",
+      "persons": 2,
+      "price": 1200,
+      "paid": 1200,
+      "grandTotal": 2400,
+      "status": "مؤكد",
+      "guestCategory": "عسكري",
+      "guestSubcategory": "",
+      "breakfast": true,
+      "lunch": true,
+      "dinner": true,
+      "contractNo": "CT-2026-0017",
+      "identityNo": "2980101019792",
+      "workplace": "جهة حكومية",
+      "servicesAmount": 0,
+      "bookingMode": "confirmed"
+    },
+    {
+      "id": 1018,
+      "guest": "نهى شريف",
+      "phone": "01010052989",
+      "room": "208",
+      "in": "2026-11-22",
+      "out": "2026-11-25",
+      "persons": 3,
+      "price": 2200,
+      "paid": 3300,
+      "grandTotal": 6600,
+      "status": "مؤكد",
+      "guestCategory": "بوكينج",
+      "guestSubcategory": "",
+      "breakfast": true,
+      "lunch": false,
+      "dinner": false,
+      "contractNo": "CT-2026-0018",
+      "identityNo": "2980101021029",
+      "workplace": "عمل حر",
+      "servicesAmount": 0,
+      "bookingMode": "confirmed"
+    },
+    {
+      "id": 1019,
+      "guest": "وليد صلاح",
+      "phone": "01010056106",
+      "room": "209",
+      "in": "2026-11-26",
+      "out": "2026-11-30",
+      "persons": 1,
+      "price": 850,
+      "paid": 0,
+      "grandTotal": 3400,
+      "status": "مؤكد",
+      "guestCategory": "مدني",
+      "guestSubcategory": "",
+      "breakfast": true,
+      "lunch": true,
+      "dinner": false,
+      "contractNo": "CT-2026-0019",
+      "identityNo": "2980101022266",
+      "workplace": "شركة النيل",
+      "servicesAmount": 0,
+      "bookingMode": "confirmed"
+    },
+    {
+      "id": 1020,
+      "guest": "مريم حسن",
+      "phone": "01010059223",
+      "room": "210",
+      "in": "2026-12-01",
+      "out": "2026-12-06",
+      "persons": 2,
+      "price": 1200,
+      "paid": 3000,
+      "grandTotal": 6000,
+      "status": "مؤكد",
+      "guestCategory": "عسكري",
+      "guestSubcategory": "",
+      "breakfast": true,
+      "lunch": false,
+      "dinner": false,
+      "contractNo": "CT-2026-0020",
+      "identityNo": "2980101023503",
+      "workplace": "جهة حكومية",
+      "servicesAmount": 0,
+      "bookingMode": "confirmed"
+    },
+    {
+      "id": 1021,
+      "guest": "شريف أمين",
+      "phone": "01010062340",
+      "room": "301",
+      "in": "2026-11-06",
+      "out": "2026-11-07",
+      "persons": 3,
+      "price": 1200,
+      "paid": 1200,
+      "grandTotal": 1200,
+      "status": "مكتمل",
+      "guestCategory": "بوكينج",
+      "guestSubcategory": "",
+      "breakfast": true,
+      "lunch": true,
+      "dinner": true,
+      "contractNo": "CT-2026-0021",
+      "identityNo": "2980101024740",
+      "workplace": "عمل حر",
+      "servicesAmount": 0,
+      "bookingMode": "confirmed"
+    },
+    {
+      "id": 1022,
+      "guest": "إيمان طارق",
+      "phone": "01010065457",
+      "room": "302",
+      "in": "2026-11-09",
+      "out": "2026-11-11",
+      "persons": 1,
+      "price": 2200,
+      "paid": 4400,
+      "grandTotal": 4400,
+      "status": "مكتمل",
+      "guestCategory": "مدني",
+      "guestSubcategory": "",
+      "breakfast": true,
+      "lunch": false,
+      "dinner": false,
+      "contractNo": "CT-2026-0022",
+      "identityNo": "2980101025977",
+      "workplace": "شركة النيل",
+      "servicesAmount": 0,
+      "bookingMode": "confirmed"
+    },
+    {
+      "id": 1023,
+      "guest": "مصطفى سعيد",
+      "phone": "01010068574",
+      "room": "303",
+      "in": "2026-11-12",
+      "out": "2026-11-15",
+      "persons": 2,
+      "price": 850,
+      "paid": 2550,
+      "grandTotal": 2550,
+      "status": "مكتمل",
+      "guestCategory": "عسكري",
+      "guestSubcategory": "",
+      "breakfast": true,
+      "lunch": true,
+      "dinner": false,
+      "contractNo": "CT-2026-0023",
+      "identityNo": "2980101027214",
+      "workplace": "جهة حكومية",
+      "servicesAmount": 0,
+      "bookingMode": "confirmed"
+    },
+    {
+      "id": 1024,
+      "guest": "رانيا مجدي",
+      "phone": "01010071691",
+      "room": "304",
+      "in": "2026-11-14",
+      "out": "2026-11-18",
+      "persons": 3,
+      "price": 1200,
+      "paid": 2400,
+      "grandTotal": 4800,
+      "status": "مقيم",
+      "guestCategory": "بوكينج",
+      "guestSubcategory": "",
+      "breakfast": true,
+      "lunch": false,
+      "dinner": false,
+      "contractNo": "CT-2026-0024",
+      "identityNo": "2980101028451",
+      "workplace": "عمل حر",
+      "servicesAmount": 0,
+      "bookingMode": "confirmed"
+    },
+    {
+      "id": 1025,
+      "guest": "إبراهيم فتحي",
+      "phone": "01010074808",
+      "room": "305",
+      "in": "2026-11-16",
+      "out": "2026-11-21",
+      "persons": 1,
+      "price": 2200,
+      "paid": 0,
+      "grandTotal": 11000,
+      "status": "مقيم",
+      "guestCategory": "مدني",
+      "guestSubcategory": "",
+      "breakfast": true,
+      "lunch": true,
+      "dinner": true,
+      "contractNo": "CT-2026-0025",
+      "identityNo": "2980101029688",
+      "workplace": "شركة النيل",
+      "servicesAmount": 0,
+      "bookingMode": "confirmed"
+    },
+    {
+      "id": 1026,
+      "guest": "بسمة عادل",
+      "phone": "01010077925",
+      "room": "306",
+      "in": "2026-11-17",
+      "out": "2026-11-18",
+      "persons": 2,
+      "price": 850,
+      "paid": 425,
+      "grandTotal": 850,
+      "status": "مؤكد",
+      "guestCategory": "عسكري",
+      "guestSubcategory": "",
+      "breakfast": true,
+      "lunch": false,
+      "dinner": false,
+      "contractNo": "CT-2026-0026",
+      "identityNo": "2980101030925",
+      "workplace": "جهة حكومية",
+      "servicesAmount": 0,
+      "bookingMode": "confirmed"
+    },
+    {
+      "id": 1027,
+      "guest": "عمرو سامح",
+      "phone": "01010081042",
+      "room": "307",
+      "in": "2026-11-19",
+      "out": "2026-11-21",
+      "persons": 3,
+      "price": 1200,
+      "paid": 1200,
+      "grandTotal": 2400,
+      "status": "مؤكد",
+      "guestCategory": "بوكينج",
+      "guestSubcategory": "",
+      "breakfast": true,
+      "lunch": true,
+      "dinner": false,
+      "contractNo": "CT-2026-0027",
+      "identityNo": "2980101032162",
+      "workplace": "عمل حر",
+      "servicesAmount": 0,
+      "bookingMode": "confirmed"
+    },
+    {
+      "id": 1028,
+      "guest": "هدى محمود",
+      "phone": "01010084159",
+      "room": "308",
+      "in": "2026-11-22",
+      "out": "2026-11-25",
+      "persons": 1,
+      "price": 2200,
+      "paid": 0,
+      "grandTotal": 6600,
+      "status": "مؤكد",
+      "guestCategory": "مدني",
+      "guestSubcategory": "",
+      "breakfast": true,
+      "lunch": false,
+      "dinner": false,
+      "contractNo": "CT-2026-0028",
+      "identityNo": "2980101033399",
+      "workplace": "شركة النيل",
+      "servicesAmount": 0,
+      "bookingMode": "confirmed"
+    }
+  ],
+  "payments": [
+    {
+      "id": 2001,
+      "booking": 1001,
+      "amount": 1200,
+      "method": "نقدي",
+      "date": "2026-11-06",
+      "note": "دفعة تجريبية"
+    },
+    {
+      "id": 2002,
+      "booking": 1002,
+      "amount": 4400,
+      "method": "بطاقة",
+      "date": "2026-11-09",
+      "note": "دفعة تجريبية"
+    },
+    {
+      "id": 2003,
+      "booking": 1003,
+      "amount": 2550,
+      "method": "تحويل",
+      "date": "2026-11-12",
+      "note": "دفعة تجريبية"
+    },
+    {
+      "id": 2005,
+      "booking": 1005,
+      "amount": 5500,
+      "method": "بطاقة",
+      "date": "2026-11-16",
+      "note": "دفعة تجريبية"
+    },
+    {
+      "id": 2006,
+      "booking": 1006,
+      "amount": 425,
+      "method": "تحويل",
+      "date": "2026-11-16",
+      "note": "دفعة تجريبية"
+    },
+    {
+      "id": 2008,
+      "booking": 1008,
+      "amount": 3300,
+      "method": "بطاقة",
+      "date": "2026-11-16",
+      "note": "دفعة تجريبية"
+    },
+    {
+      "id": 2009,
+      "booking": 1009,
+      "amount": 1700,
+      "method": "تحويل",
+      "date": "2026-11-16",
+      "note": "دفعة تجريبية"
+    },
+    {
+      "id": 2011,
+      "booking": 1011,
+      "amount": 1200,
+      "method": "بطاقة",
+      "date": "2026-11-06",
+      "note": "دفعة تجريبية"
+    },
+    {
+      "id": 2012,
+      "booking": 1012,
+      "amount": 4400,
+      "method": "تحويل",
+      "date": "2026-11-09",
+      "note": "دفعة تجريبية"
+    },
+    {
+      "id": 2013,
+      "booking": 1013,
+      "amount": 2550,
+      "method": "نقدي",
+      "date": "2026-11-12",
+      "note": "دفعة تجريبية"
+    },
+    {
+      "id": 2014,
+      "booking": 1014,
+      "amount": 2400,
+      "method": "بطاقة",
+      "date": "2026-11-14",
+      "note": "دفعة تجريبية"
+    },
+    {
+      "id": 2015,
+      "booking": 1015,
+      "amount": 5500,
+      "method": "تحويل",
+      "date": "2026-11-16",
+      "note": "دفعة تجريبية"
+    },
+    {
+      "id": 2017,
+      "booking": 1017,
+      "amount": 1200,
+      "method": "بطاقة",
+      "date": "2026-11-16",
+      "note": "دفعة تجريبية"
+    },
+    {
+      "id": 2018,
+      "booking": 1018,
+      "amount": 3300,
+      "method": "تحويل",
+      "date": "2026-11-16",
+      "note": "دفعة تجريبية"
+    },
+    {
+      "id": 2020,
+      "booking": 1020,
+      "amount": 3000,
+      "method": "بطاقة",
+      "date": "2026-11-16",
+      "note": "دفعة تجريبية"
+    },
+    {
+      "id": 2021,
+      "booking": 1021,
+      "amount": 1200,
+      "method": "تحويل",
+      "date": "2026-11-06",
+      "note": "دفعة تجريبية"
+    },
+    {
+      "id": 2022,
+      "booking": 1022,
+      "amount": 4400,
+      "method": "نقدي",
+      "date": "2026-11-09",
+      "note": "دفعة تجريبية"
+    },
+    {
+      "id": 2023,
+      "booking": 1023,
+      "amount": 2550,
+      "method": "بطاقة",
+      "date": "2026-11-12",
+      "note": "دفعة تجريبية"
+    },
+    {
+      "id": 2024,
+      "booking": 1024,
+      "amount": 2400,
+      "method": "تحويل",
+      "date": "2026-11-14",
+      "note": "دفعة تجريبية"
+    },
+    {
+      "id": 2026,
+      "booking": 1026,
+      "amount": 425,
+      "method": "بطاقة",
+      "date": "2026-11-16",
+      "note": "دفعة تجريبية"
+    },
+    {
+      "id": 2027,
+      "booking": 1027,
+      "amount": 1200,
+      "method": "تحويل",
+      "date": "2026-11-16",
+      "note": "دفعة تجريبية"
+    }
+  ],
+  "tasks": [
+    {
+      "id": 1,
+      "room": "101",
+      "type": "صيانة",
+      "status": "مكتملة",
+      "note": "مهمة تجريبية"
+    },
+    {
+      "id": 2,
+      "room": "102",
+      "type": "نظافة",
+      "status": "قيد التنفيذ",
+      "note": "مهمة تجريبية"
+    },
+    {
+      "id": 3,
+      "room": "103",
+      "type": "صيانة",
+      "status": "قيد التنفيذ",
+      "note": "مهمة تجريبية"
+    },
+    {
+      "id": 4,
+      "room": "104",
+      "type": "نظافة",
+      "status": "مكتملة",
+      "note": "مهمة تجريبية"
+    },
+    {
+      "id": 5,
+      "room": "105",
+      "type": "صيانة",
+      "status": "قيد التنفيذ",
+      "note": "مهمة تجريبية"
+    },
+    {
+      "id": 6,
+      "room": "106",
+      "type": "نظافة",
+      "status": "قيد التنفيذ",
+      "note": "مهمة تجريبية"
+    },
+    {
+      "id": 7,
+      "room": "107",
+      "type": "صيانة",
+      "status": "مكتملة",
+      "note": "مهمة تجريبية"
+    },
+    {
+      "id": 8,
+      "room": "108",
+      "type": "نظافة",
+      "status": "قيد التنفيذ",
+      "note": "مهمة تجريبية"
+    },
+    {
+      "id": 9,
+      "room": "109",
+      "type": "صيانة",
+      "status": "قيد التنفيذ",
+      "note": "مهمة تجريبية"
+    },
+    {
+      "id": 10,
+      "room": "110",
+      "type": "نظافة",
+      "status": "مكتملة",
+      "note": "مهمة تجريبية"
+    },
+    {
+      "id": 11,
+      "room": "201",
+      "type": "صيانة",
+      "status": "قيد التنفيذ",
+      "note": "مهمة تجريبية"
+    },
+    {
+      "id": 12,
+      "room": "202",
+      "type": "نظافة",
+      "status": "قيد التنفيذ",
+      "note": "مهمة تجريبية"
+    },
+    {
+      "id": 13,
+      "room": "203",
+      "type": "صيانة",
+      "status": "مكتملة",
+      "note": "مهمة تجريبية"
+    },
+    {
+      "id": 14,
+      "room": "204",
+      "type": "نظافة",
+      "status": "قيد التنفيذ",
+      "note": "مهمة تجريبية"
+    }
+  ],
+  "services": [
+    {
+      "id": 1,
+      "guest": "أحمد محمود",
+      "name": "نقل حقائب",
+      "amount": 80,
+      "date": "2026-11-16"
+    },
+    {
+      "id": 2,
+      "guest": "محمد السيد",
+      "name": "خدمة غسيل",
+      "amount": 95,
+      "date": "2026-11-22"
+    },
+    {
+      "id": 3,
+      "guest": "منى إبراهيم",
+      "name": "نقل حقائب",
+      "amount": 110,
+      "date": "2026-11-21"
+    },
+    {
+      "id": 4,
+      "guest": "سارة حسن",
+      "name": "خدمة غسيل",
+      "amount": 125,
+      "date": "2026-11-20"
+    },
+    {
+      "id": 5,
+      "guest": "عمر خالد",
+      "name": "نقل حقائب",
+      "amount": 140,
+      "date": "2026-11-19"
+    },
+    {
+      "id": 6,
+      "guest": "محمود علي",
+      "name": "خدمة غسيل",
+      "amount": 155,
+      "date": "2026-11-18"
+    },
+    {
+      "id": 7,
+      "guest": "فاطمة أحمد",
+      "name": "نقل حقائب",
+      "amount": 170,
+      "date": "2026-11-17"
+    },
+    {
+      "id": 8,
+      "guest": "يوسف سمير",
+      "name": "خدمة غسيل",
+      "amount": 185,
+      "date": "2026-11-16"
+    },
+    {
+      "id": 9,
+      "guest": "نور مصطفى",
+      "name": "نقل حقائب",
+      "amount": 200,
+      "date": "2026-11-22"
+    },
+    {
+      "id": 10,
+      "guest": "هبة محمد",
+      "name": "خدمة غسيل",
+      "amount": 215,
+      "date": "2026-11-21"
+    },
+    {
+      "id": 11,
+      "guest": "كريم عبد الله",
+      "name": "نقل حقائب",
+      "amount": 230,
+      "date": "2026-11-20"
+    },
+    {
+      "id": 12,
+      "guest": "آية جمال",
+      "name": "خدمة غسيل",
+      "amount": 245,
+      "date": "2026-11-19"
+    }
+  ],
+  "items": [
+    {
+      "id": 1,
+      "name": "مياه",
+      "qty": 10,
+      "price": 30
+    },
+    {
+      "id": 2,
+      "name": "عصير",
+      "qty": 13,
+      "price": 42
+    },
+    {
+      "id": 3,
+      "name": "قهوة",
+      "qty": 16,
+      "price": 54
+    },
+    {
+      "id": 4,
+      "name": "شاي",
+      "qty": 19,
+      "price": 66
+    },
+    {
+      "id": 5,
+      "name": "مناشف",
+      "qty": 22,
+      "price": 78
+    },
+    {
+      "id": 6,
+      "name": "صابون",
+      "qty": 25,
+      "price": 90
+    },
+    {
+      "id": 7,
+      "name": "مناديل",
+      "qty": 28,
+      "price": 102
+    },
+    {
+      "id": 8,
+      "name": "مستلزمات تنظيف",
+      "qty": 31,
+      "price": 114
+    }
+  ],
+  "expenses": [
+    {
+      "id": 1,
+      "name": "مشتريات تشغيل",
+      "amount": 250,
+      "date": "2026-11-16"
+    },
+    {
+      "id": 2,
+      "name": "مشتريات تشغيل",
+      "amount": 300,
+      "date": "2026-11-15"
+    },
+    {
+      "id": 3,
+      "name": "مشتريات تشغيل",
+      "amount": 350,
+      "date": "2026-11-14"
+    },
+    {
+      "id": 4,
+      "name": "مشتريات تشغيل",
+      "amount": 400,
+      "date": "2026-11-13"
+    },
+    {
+      "id": 5,
+      "name": "مشتريات تشغيل",
+      "amount": 450,
+      "date": "2026-11-12"
+    },
+    {
+      "id": 6,
+      "name": "مشتريات تشغيل",
+      "amount": 500,
+      "date": "2026-11-11"
+    },
+    {
+      "id": 7,
+      "name": "مشتريات تشغيل",
+      "amount": 550,
+      "date": "2026-11-10"
+    },
+    {
+      "id": 8,
+      "name": "مشتريات تشغيل",
+      "amount": 600,
+      "date": "2026-11-09"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "مدير النسخة التجريبية",
+      "username": "demo",
+      "role": "مدير النظام"
+    }
+  ],
+  "restaurantOrders": [],
+  "auditLogs": [],
+  "floorSettings": [
+    {
+      "name": "الدور 1",
+      "number": 1,
+      "count": 10,
+      "start": "101",
+      "end": "110"
+    },
+    {
+      "name": "الدور 2",
+      "number": 2,
+      "count": 10,
+      "start": "201",
+      "end": "210"
+    },
+    {
+      "name": "الدور 3",
+      "number": 3,
+      "count": 10,
+      "start": "301",
+      "end": "310"
+    },
+    {
+      "name": "الدور 4",
+      "number": 4,
+      "count": 10,
+      "start": "401",
+      "end": "410"
+    }
+  ],
+  "waitlist": [
+    {
+      "id": 1,
+      "guest": "عميل بقائمة الانتظار",
+      "phone": "01000000000",
+      "type": "جناح",
+      "in": "2026-11-18",
+      "out": "2026-11-21",
+      "status": "منتظر"
+    }
+  ]
+}
