@@ -1,5 +1,5 @@
 /* Jewel Hotel GitHub Pages demo: browser-only, no PHP or central database. */
-(()=>{const KEY='jewel_hotel_demo_60303_data',AUTH='jewel_hotel_demo_60303_auth';let revision=0;
+(()=>{const KEY='jewel_hotel_demo_60304_real_rooms_data',AUTH='jewel_hotel_demo_60303_auth';let revision=0;
 const clone=x=>JSON.parse(JSON.stringify(x));
 async function seed(){const r=await fetch('demo-data.json',{cache:'no-store'});if(!r.ok)throw Error('تعذر تحميل بيانات التجربة');return r.json()}
 async function load(){const raw=localStorage.getItem(KEY);if(raw){try{return JSON.parse(raw)}catch{}}const d=await seed();localStorage.setItem(KEY,JSON.stringify(d));return d}
